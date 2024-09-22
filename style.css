@@ -1,0 +1,44 @@
+
+.flex-container{
+    display:flex;
+    flex-wrap: nowrap;
+    background:green;
+    
+}
+.flex-container > div{
+    background:#f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size:30px;
+    
+}
+
+/*flexbox extra practices*/
+
+.extra-flex1{
+    max-width:960px;
+    margin: auto;
+    background: gray;
+    display: flex;
+   /* flex-wrap: wrap-reverse*/
+   /* flex-wrap: wrap;*/
+    flex-wrap:nowrap;
+}
+
+.extra-flex1 div{
+    width:33.33%;
+    height: 250px;
+    padding:10px;
+    margin: 5px;
+    overflow: hidden;
+    text-align: center;
+    border:2px solid yellow;
+    border-radius: 10px;
+}
+
+
+
+
+

@@ -2,13 +2,13 @@
     <div>
         <!--  <UserInfovalidation name="Sohan" surname="Sujan" age="1296" /> -->
           <!-- <UserInfovalidation :name="user.name" :surname="user.surname" :age="user.age" /> -->
-           <BooleanBox />
+           <!-- <BooleanBox /> -->
        
     </div>
 
 </template>
 <script>
-import BooleanBox from './components/BooleanBox.vue';
+//import BooleanBox from './components/BooleanBox.vue';
 //import UserInfovalidation from './components/UserInfovalidation.vue';
 
 
@@ -16,7 +16,7 @@ import BooleanBox from './components/BooleanBox.vue';
 
 export default{
     name: 'App',
-    data(){
+   /* data(){
         return {
            // page: "Hello I am Sohan!!",
              
@@ -31,10 +31,11 @@ export default{
 
             
         };
-    },
+    },*/
     components: {
        // UserInfovalidation,
-        BooleanBox
+       // BooleanBox
+
 
     }
 
